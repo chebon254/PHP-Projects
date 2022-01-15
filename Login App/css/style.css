@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0px;
+    list-style: none;
+    box-sizing: border-box;
+    transition: all ease 400ms;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    min-height: 100vh !important;
+    min-width: 100vw !important;
+    background-color: #eff2f7;
+    padding: 20px;
+}
+
+
+
+/* == Login page == */
+.login-container{
+    min-height: 100vh !important;
+    min-width: 100vw !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-40px);
+}
+#box{
+    height: fit-content;
+    width: 300px;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+.login-head{
+    font-size: 26px;
+    font-weight: 600;
+    color: #0e1d31;
+}
+#box label{
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'Poppins' sans-serif;
+    color: #555555;
+}
+#box input{
+    height: 40px;
+    width: 100% !important;
+    border: 1px solid #eeeeee;
+    outline: none;
+    padding: 0px 10px;
+    border-radius: 2px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #0e1d31;
+}
+#box input:focus{
+    border: 1px solid #ee4886;
+    color: #ee4886;
+}
+#box button{
+    height: 50px;
+    width: 100% !important;
+    border: 0;
+    border-radius: 2px;
+    outline: none;
+    background-color: #ee4886;
+    margin: 20px 0px;
+
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Poppins' sans-serif;
+    color: #ffffff;
+}
+#box p{
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'Poppins' sans-serif;
+    color: #0e1d31;
+}
+#box a{
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'Poppins' sans-serif;
+    color: #0e1d31;
+    text-decoration: none;
+}
+#box a:hover{
+    transition: all ease 100ms;
+    color: #ee4886;
+    text-decoration: underline;
+}
+/* == || Login page == */
